@@ -25,7 +25,7 @@ namespace GerenciamentoFinanceiroAPI.Controllers
             var despesas = await _relatorioService.GetDespesasPorPeriodo(inicio, fim);
             if (!despesas.Any())
             {
-                return NotFound("Nenhuma despesa encontrada no período especificado.");
+                return NotFound("Nenhuma despesa encontrada no período selecionado.");
             }
             return Ok(despesas);
         }
