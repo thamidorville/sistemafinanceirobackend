@@ -107,7 +107,7 @@ https://localhost:7173/swagger/index.html
 
 O Swagger facilita a exploração dos endpoints da API, permitindo testar todas as funcionalidades diretamente pela interface gráfica.
 
-Estrutura do Projeto - Padrão MVC
+Estrutura do Projeto
 
 Controllers: Contém os controladores responsáveis por gerenciar as requisições HTTP e conectar os serviços aos modelos.
 
