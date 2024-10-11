@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thamidorville\\source\\repos\\GerenciamentoFinanceiroAPI\\GerenciamentoFinanceiroAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21BE8816-A7A0-4B5B-94D8-C1BE8BAB2D1C}|GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj|c:\\users\\thamidorville\\source\\repos\\gerenciamentofinanceiroapi\\gerenciamentofinanceiroapi\\gerenciamentofinanceiroapi.tests\\gerenciamentofinanceiroapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21BE8816-A7A0-4B5B-94D8-C1BE8BAB2D1C}|GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj|solutionrelative:gerenciamentofinanceiroapi.tests\\gerenciamentofinanceiroapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenciamentoFinanceiroAPI.Tests",
+              "DocumentMoniker": "C:\\Users\\thamidorville\\source\\repos\\GerenciamentoFinanceiroAPI\\GerenciamentoFinanceiroAPI\\GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj",
+              "RelativeDocumentMoniker": "GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj",
+              "ToolTip": "C:\\Users\\thamidorville\\source\\repos\\GerenciamentoFinanceiroAPI\\GerenciamentoFinanceiroAPI\\GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj",
+              "RelativeToolTip": "GerenciamentoFinanceiroAPI.Tests\\GerenciamentoFinanceiroAPI.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T16:53:53.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
