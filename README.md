@@ -68,7 +68,7 @@ A API oferece os seguintes recursos:
   "DefaultConnection": "Host=localhost;Port=5432;Database=FinanceiroDB;Username=seu_usuario;Password=sua_senha"
 }
 
-** Configurar o Arquivo .env.local no Frontend
+** Configurar o Arquivo .env.local no ``` Frontend (https://github.com/thamidorville/sistemafinanceirofrontend)
 Ao clonar o projeto frontend, o arquivo .env.local não será baixado porque está incluído no .gitignore. Portanto, crie um arquivo .env.local na raiz do seu projeto frontend e adicione a seguinte linha:
 `` NEXT_PUBLIC_API_URL=http://localhost:5057
 
