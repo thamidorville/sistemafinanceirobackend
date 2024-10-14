@@ -68,8 +68,20 @@ A API oferece os seguintes recursos:
   "DefaultConnection": "Host=localhost;Port=5432;Database=FinanceiroDB;Username=seu_usuario;Password=sua_senha"
 }
 
+** Configurar o Arquivo .env.local no Frontend
+Ao clonar o projeto frontend, o arquivo .env.local não será baixado porque está incluído no .gitignore. Portanto, crie um arquivo .env.local na raiz do seu projeto frontend e adicione a seguinte linha:
+`` NEXT_PUBLIC_API_URL=http://localhost:5057
+
+** Configurar a Porta do Swagger na API
+No projeto backend, ajuste a porta do Swagger no arquivo launchSettings.json. O Swagger não roda junto com o dotnet run no Visual Studio, então ajuste o launchSettings.json para a seguinte configuração:
+
+`` "launchUrl": "swagger",
+"applicationUrl": "http://localhost:5058"
+
 ** aplicar as migrações para criar as tabelas no banco de dados:
-dotnet ef database update
+`` dotnet ef migrations add InitialCreate
+`` dotnet ef database update
+`` dotnet ef database update
 
 ** rodar a API
 dotnet run
@@ -81,6 +93,7 @@ http://localhost:5057 (HTTP)
 
 ** Documentação da API via Swagger:
 acesse: https://localhost:7173/swagger/index.html
+Isso permitirá que você visualize e teste os endpoints da API diretamente no Swagger e  também permitirá que o frontend funcione corretamente.
 
 Descrição das Pastas
 
